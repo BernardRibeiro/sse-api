@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "rootDirs": ["src"],
+    "baseUrl": "./src"
+  },
+  "include": ["src"],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+  },
+}
